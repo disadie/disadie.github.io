@@ -1,0 +1,44 @@
+#bg {
+position: fixed;
+top: 0;
+left: 0;
+width: 200%;
+height: 200%;
+}
+
+#bg img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	min-width: 50%;
+	min-height: 50%;
+}
+
+.image {
+	position: relative;
+}
+
+.image .text {
+	position: absolute;
+	color: white;
+	top: 470px;
+	left: 80px;
+}
+
+.image .button {
+	position: absolute;
+	top: 550px;
+	left: 450px;
+}
+
+.btn {
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.btn-xl {
+	padding: 1rem 1rem;
+}
+
